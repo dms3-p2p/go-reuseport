@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/gxed/eventfd"
-	logging "github.com/ipfs/go-log"
+	logging "github.com/dms3-fs/go-log"
 )
 
 var (
@@ -64,7 +64,7 @@ func PollPark(reqctx context.Context, fd int, mode string) error {
 
 func criticalError(msg string, err error) {
 	log.Errorf("%s: %s.", msg, err.Error())
-	log.Errorf("This is critical error, please report it at https://github.com/libp2p/go-reuseport/issues/new")
+	log.Errorf("This is critical error, please report it at https://github.com/dms3-p2p/go-reuseport/issues/new")
 	log.Errorf("Bailing out. You are on your own. Good luck.")
 
 	for {

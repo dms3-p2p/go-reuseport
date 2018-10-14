@@ -6,7 +6,7 @@ import (
 	"net"
 	"os"
 
-	reuse "github.com/libp2p/go-reuseport"
+	reuse "github.com/dms3-p2p/go-reuseport"
 )
 
 func main() {

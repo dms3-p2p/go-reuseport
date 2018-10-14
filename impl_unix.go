@@ -11,8 +11,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/libp2p/go-reuseport/singlepoll"
-	sockaddrnet "github.com/libp2p/go-sockaddr/net"
+	"github.com/dms3-p2p/go-reuseport/singlepoll"
+	sockaddrnet "github.com/dms3-p2p/go-sockaddr/net"
 )
 
 const (
